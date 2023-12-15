@@ -1,0 +1,41 @@
+
+Q1. What is the KNN algorithm?
+Ans: KNN is a machine learning algorithm that can be used for both classification and regression problems. It works by finding k nearest points and use majority voting in case of classification and mean or median in case of regression.
+
+Q2. How do you choose the value of K in KNN?
+Ans: It can be choosen using hypermeter tuning.
+
+Q3. What is the difference between KNN classifier and KNN regressor?
+Ans: KNN classifier is used for classification problems while KNN regressor can be used for regression problem.
+
+Q4. How do you measure the performance of KNN?
+Ans: The performance can be measured using metrics such as mean squared error or r2 score.
+
+Q5. What is the curse of dimensionality in KNN?
+Ans: The curse of dimensionality is a phenomenon that occurs when the numbers of features in a dataset grows exponentially.
+In case of KNN, if number of features grows exonentially, then it will be more difficult to find the nearest neighbours as the number of dimensions increases, the distance between any two data points become more similar. This means that two data points that are not similat will be considered as neighbours.
+
+Q6. How do you handle missing values in KNN?
+Ans: Handling missing in KNN will depend on specific dataset. Here are two common methods to do so:
+
+Impute the missing values using mean median or mode.
+Ignore those missing values.
+Q7. Compare and contrast the performance of the KNN classifier and regressor. Which one is better for which type of problem?
+Ans: KNN classifier is better suited for classification problems while KNN regressor is better suited for regression tasks.
+
+Q8. What are the strengths and weaknesses of the KNN algorithm for classification and regression tasks, and how can these be addressed?
+
+Strengths
+Simple and easy to understand: KNN is an easy algorithm that is easy to implement and understand.
+Robust to noise: KNN is relatively robust to noise in the data.
+No assumptions about the data: KNN does not make any assumptions about the distribution of the data.
+Interpretable: The predictions of KNN can be easy to intrepret.
+Weaknesses
+Computationally expensive: KNN can be computationally expensive to train large datasets.
+Not as accurate as other algorithms: KNN is not as accurate as other ML algorithms.
+Q9. What is the difference between Euclidean distance and Manhattan distance in KNN? |Euclidean formula|Distance Formula| |---|---| |sqrt((x2-x1)^2+(y2-y1)^2)|abs(x2-x1)+abs(y2-y1)|
+
+The only difference between these to distance metric is their formula to calculate the distance.
+
+Q10. What is the role of feature scaling in KNN?
+Ans: If the features are not scaled properly, then the distance between two data points may be dominated by features with larger the larger values.
